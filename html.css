@@ -7,8 +7,11 @@
 }
 
 /* menú */
-header{
-    box-shadow: 2px 2px 2px 1px rgba(97, 94, 94, 0.6);
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar1{
@@ -76,6 +79,7 @@ header{
 
 /* slogan */
 .slogan{
+    padding-top: 80px;
     text-align: center;
     color: #450821;
     margin-bottom: 5%;
